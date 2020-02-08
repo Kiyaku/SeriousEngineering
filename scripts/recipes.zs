@@ -991,6 +991,13 @@ recipes.addShaped("chineseworkshop_fu", <chineseworkshop:fu>, [
 	[null, <ore:stickWood>, null]
 ]);
 
+recipes.remove(<chineseworkshop:stone_window> * 3);
+recipes.addShaped("chineseworkshop_stone_window", <chineseworkshop:stone_window> * 4, [
+	[<ore:stoneDiorite>, <ore:stoneDiorite>, <ore:stoneDiorite>], 
+	[<ore:stoneDiorite>, null, <ore:stoneDiorite>], 
+	[<ore:stoneDiorite>, <ore:stoneDiorite>, <ore:stoneDiorite>]
+]);
+
 
 
 // ------------ CHISEL --------------------------------
