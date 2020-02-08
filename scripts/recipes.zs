@@ -641,9 +641,6 @@ recipes.addShapeless(<immersiveengineering:storage:0>, [<mysticalworld:copper_bl
 recipes.addShapeless(<mysticalworld:silver_block>, [<immersiveengineering:storage:3>]);
 recipes.addShapeless(<immersiveengineering:storage:3>, [<mysticalworld:silver_block>]);
 
-recipes.addShapeless("mw_mud_to_ew_mud", <earthworks:block_mud>, [<mysticalworld:wet_mud_block>]);
-recipes.addShapeless("ew_mud_to_mw_mud", <mysticalworld:wet_mud_block>, [<earthworks:block_mud>]);
-
 
 
 // ------------ TECHGUNS ------------------------------
@@ -1039,9 +1036,6 @@ ArcaneWorkbench.registerShapedRecipe("PotionSprayer", "POTIONSPRAYER", 75, [<asp
 	 [<immersiveengineering:metal:39>, <thaumcraft:metal_alchemical>, <immersiveengineering:metal:39>]]
 );
 
-recipes.addShapeless("tcflesh_to_charmflesh", <charm:rotten_flesh_block>, [<thaumcraft:flesh_block>]);
-recipes.addShapeless("charmflesh_to_tcflesh", <thaumcraft:flesh_block>, [<charm:rotten_flesh_block>]);
-
 
 
 // ------------ AQUACULTUER ---------------------------
@@ -1273,6 +1267,15 @@ recipes.addShapeless(coin500, [coin100, coin100, coin50, coin50, coin50, coin50,
 recipes.addShapeless(coin500, [coin100, coin50, coin50, coin50, coin50, coin50, coin50, coin50, coin50]);
 
 recipes.remove(<minecraft:mob_spawner>);
+
+recipes.addShapeless("rc_andesite_to_cw_andesite", <chineseworkshop:andesite_pavement>, [<railcraft:brick_andesite:3>]);
+recipes.addShapeless("rc_andesite_to_cw_andesite", <railcraft:brick_andesite:3>, [<chineseworkshop:andesite_pavement>]);
+
+recipes.addShapeless("mw_mud_to_ew_mud", <earthworks:block_mud>, [<mysticalworld:wet_mud_block>]);
+recipes.addShapeless("ew_mud_to_mw_mud", <mysticalworld:wet_mud_block>, [<earthworks:block_mud>]);
+
+recipes.addShapeless("tcflesh_to_charmflesh", <charm:rotten_flesh_block>, [<thaumcraft:flesh_block>]);
+recipes.addShapeless("charmflesh_to_tcflesh", <thaumcraft:flesh_block>, [<charm:rotten_flesh_block>]);
 
 
 
