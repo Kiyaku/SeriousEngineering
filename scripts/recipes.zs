@@ -1295,6 +1295,10 @@ recipes.addShapeless("charmflesh_to_tcflesh", <thaumcraft:flesh_block>, [<charm:
 recipes.addShapeless("quark_andesitefence_to_cw_fence", <chineseworkshop:andesite_fence>, [<quark:stone_andesite_wall>]);
 recipes.addShapeless("cw_andesitefence_to_quark_fence", <quark:stone_andesite_wall>, [<chineseworkshop:andesite_fence>]);
 
+recipes.addShapeless("quark_dioritefence_to_cw_fence", <chineseworkshop:diorite_fence>, [<quark:stone_diorite_wall>]);
+recipes.addShapeless("cw_dioritefence_to_quark_fence", <quark:stone_diorite_wall>, [<chineseworkshop:diorite_fence>]);
+
+
 
 
 
