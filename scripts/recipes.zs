@@ -995,7 +995,7 @@ recipes.addShaped("chineseworkshop_fu", <chineseworkshop:fu>, [
 
 // ------------ CHISEL --------------------------------
 val chiselGroups = {
-	"stainedWoodWhite" : [ <quark:stained_planks:0>, <rustic:painted_wood_white> ],
+	"stainedWoodWhite" : [ <quark:stained_planks:0>, <rustic:painted_wood_white>, <littletiles:ltcoloredblock:13> ],
 	"stainedWoodOrange" : [ <quark:stained_planks:1>, <rustic:painted_wood_orange> ],
 	"stainedWoodMagenta" : [ <quark:stained_planks:2>, <rustic:painted_wood_magenta> ],
 	"stainedWoodLightBlue" : [ <quark:stained_planks:3>, <rustic:painted_wood_light_blue> ],
