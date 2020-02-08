@@ -1292,6 +1292,10 @@ recipes.addShapeless("ew_mud_to_mw_mud", <mysticalworld:wet_mud_block>, [<earthw
 recipes.addShapeless("tcflesh_to_charmflesh", <charm:rotten_flesh_block>, [<thaumcraft:flesh_block>]);
 recipes.addShapeless("charmflesh_to_tcflesh", <thaumcraft:flesh_block>, [<charm:rotten_flesh_block>]);
 
+recipes.addShapeless("quark_andesitefence_to_cw_fence", <chineseworkshop:andesite_fence>, [<quark:stone_andesite_wall>]);
+recipes.addShapeless("cw_andesitefence_to_quark_fence", <quark:stone_andesite_wall>, [<chineseworkshop:andesite_fence>]);
+
+
 
 
 // ------------ LOOT TABLES ---------------------------
