@@ -260,6 +260,14 @@ SluiceBox.removeRecipe(<magneticraft:rocky_chunks:14>);
 JEI.removeAndHide(<engineersdecor:small_tree_cutter>);
 JEI.removeAndHide(<engineersdecor:small_block_breaker>);
 
+recipes.removeByRecipeName("engineersdecor:dependent/thin_steel_pole_recipe");
+recipes.addShaped("thin_steel_pole_recipe", <engineersdecor:thin_steel_pole> * 12, [
+	[<ore:ingotSteel>], 
+	[<ore:ingotSteel>], 
+	[<ore:ingotSteel>]
+]);
+
+
 
 
 // ------------ IMMERSIVE ENGINEERING -----------------
