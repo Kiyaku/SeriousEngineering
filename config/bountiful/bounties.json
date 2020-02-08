@@ -1,0 +1,726 @@
+[
+// RUSTIC WINES
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"ale\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"cider\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"ironwine\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"mead\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"wildberrywine\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"wine\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"cinderfire_whiskey\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"shimmerdew_spirits\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+  {
+    "content": "rustic:fluid_bottle",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },    
+    "nbt_data": "{Fluid: {FluidName: \"viscous_brew\", Amount: 1000, Tag: {Quality: 1.0f}}}",
+    "unitWorth": 300,
+    "weight": 80
+  },
+
+
+
+
+// PAM FOOD
+  {
+    "content": "harvestcraft:southernstylebreakfastitem",
+    "amount": {
+      "min": 8,
+      "max": 16
+    },    
+    "unitWorth": 10,
+    "weight": 60
+  },
+  {
+    "content": "harvestcraft:meatfeastpizzaitem",
+    "amount": {
+      "min": 8,
+      "max": 16
+    },    
+    "unitWorth": 10,
+    "weight": 60
+  },
+  {
+    "content": "harvestcraft:thankfuldinneritem",
+    "amount": {
+      "min": 8,
+      "max": 16
+    },    
+    "unitWorth": 10,
+    "weight": 60
+  },
+  {
+    "content": "harvestcraft:koreandinneritem",
+    "amount": {
+      "min": 8,
+      "max": 16
+    },    
+    "unitWorth": 10,
+    "weight": 60
+  },
+  {
+    "content": "harvestcraft:gourmetvenisonburgeritem",
+    "amount": {
+      "min": 8,
+      "max": 16
+    },    
+    "unitWorth": 10,
+    "weight": 60
+  },
+  {
+    "content": "harvestcraft:cornedbeefbreakfastitem",
+    "amount": {
+      "min": 8,
+      "max": 16
+    },    
+    "unitWorth": 10,
+    "weight": 60
+  },
+
+
+
+// ENEMIES
+  {
+    "content": "entity:minecraft:skeleton",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 3,
+    "weight": 200
+  },
+    {
+    "content": "entity:minecraft:zombie",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 3,
+    "weight": 200
+  },
+    {
+    "content": "entity:minecraft:creeper",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 3,
+    "weight": 200
+  },
+    {
+    "content": "entity:minecraft:blaze",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 5,
+    "weight": 140
+  },
+      {
+    "content": "entity:minecraft:enderman",
+    "amount": {
+      "min": 1,
+      "max": 3
+    },
+    "unitWorth": 8,
+    "weight": 140
+  },
+      {
+    "content": "entity:minecraft:ghast",
+    "amount": {
+      "min": 1,
+      "max": 3
+    },
+    "unitWorth": 5,
+    "weight": 140
+  },
+      {
+    "content": "entity:minecraft:guardian",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 7,
+    "weight": 40
+  },
+      {
+    "content": "entity:minecraft:shulker",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 7,
+    "weight": 40
+  },
+      {
+    "content": "entity:minecraft:spider",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 3,
+    "weight": 200
+  },
+      {
+    "content": "entity:minecraft:witch",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 4,
+    "weight": 160
+  },
+      {
+    "content": "entity:minecraft:wither_skeleton",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 5,
+    "weight": 140
+  },
+  {
+    "content": "entity:minecraft:wither",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 200,
+    "weight": 4
+  },
+  {
+    "content": "entity:minecraft:ender_dragon",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 300,
+    "weight": 2
+  },
+  {
+    "content": "entity:mowziesmobs:naga",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 10,
+    "weight": 10
+  },
+  {
+    "content": "entity:mowziesmobs:barakoaya",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 3,
+    "weight": 70
+  },
+
+
+
+
+
+// Forestry
+   { "content": "extrabees:honey_comb:0", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:1", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:2", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:3", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:4", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:5", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:6", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:7", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:8", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "extrabees:honey_comb:9", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:10", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:11", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:12", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:13", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:14", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:15", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:16", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:17", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:18", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:19", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:20", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:21", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:22", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:23", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:24", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:25", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:26", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:27", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:28", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:29", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:30", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:31", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:32", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:33", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:34", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:35", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:36", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:37", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:38", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:39", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:40", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:41", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:42", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:43", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:44", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:45", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:46", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:47", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:48", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:49", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:50", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:51", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:52", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:53", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:54", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:55", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:56", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:57", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:58", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:59", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:60", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:61", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:62", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:63", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:64", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:65", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:66", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:67", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:68", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:69", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:70", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:71", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:72", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:73", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:74", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:75", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:76", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:77", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:78", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "extrabees:honey_comb:79", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+
+   { "content": "forestry:bee_combs:0", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:1", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:2", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:3", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:4", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:5", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:6", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:7", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:8", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+   { "content": "forestry:bee_combs:9", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "forestry:bee_combs:10", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "forestry:bee_combs:11", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "forestry:bee_combs:12", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "forestry:bee_combs:13", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "forestry:bee_combs:14", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "forestry:bee_combs:15", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+  { "content": "forestry:bee_combs:16", "amount": { "min": 8, "max": 16 }, "unitWorth": 3, "weight": 3 },
+
+
+
+// Aquaculture
+   { "content": "aquaculture:fish:0", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:1", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:2", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:3", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:4", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:5", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:6", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:7", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:8", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+   { "content": "aquaculture:fish:9", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:10", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:11", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:12", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:13", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:14", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:15", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:16", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:17", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:18", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:19", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:20", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:21", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:22", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:23", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:24", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:25", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:26", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:27", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:28", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:29", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:30", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:31", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:32", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:33", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:34", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:35", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:36", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+  { "content": "aquaculture:fish:37", "amount": { "min": 1, "max": 1 }, "unitWorth": 50, "weight": 100 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Materials
+  {
+    "content": "minecraft:iron_ingot",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:gold_ingot",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "forestry:ingot_tin",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "immersiveengineering:metal:0",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "immersiveengineering:metal:1",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "immersiveengineering:metal:2",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "immersiveengineering:metal:3",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "immersiveengineering:metal:4",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "immersiveengineering:metal:8",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 600
+  },
+  {
+    "content": "magneticraft:ingots:14",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 600
+  },
+  {
+    "content": "pneumaticcraft:ingot_iron_compressed",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 600
+  },
+
+
+
+
+
+
+
+  {
+    "content": "minecraft:dirt",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 1,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:stone",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 3,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:cobblestone",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 2,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:fish",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 6,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:apple",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 3,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:book",
+    "amount": {
+      "min": 2,
+      "max": 16
+    },
+    "unitWorth": 8,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:cactus",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 4,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:diamond",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 100,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:dispenser",
+    "amount": {
+      "min": 1,
+      "max": 6
+    },
+    "unitWorth": 10,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:bread",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 4,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:rotten_flesh",
+    "amount": {
+      "min": 1,
+      "max": 24
+    },
+    "unitWorth": 5,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:sign",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 2,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:slime_ball",
+    "amount": {
+      "min": 1,
+      "max": 32
+    },
+    "unitWorth": 6,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:spider_eye",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 7,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:string",
+    "amount": {
+      "min": 1,
+      "max": 24
+    },
+    "unitWorth": 3,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:sugar",
+    "amount": {
+      "min": 1,
+      "max": 64
+    },
+    "unitWorth": 2,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:wheat",
+    "amount": {
+      "min": 1,
+      "max": 48
+    },
+    "unitWorth": 2,
+    "weight": 600
+  },
+  {
+    "content": "minecraft:leather",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 5,
+    "weight": 600
+  }
+]

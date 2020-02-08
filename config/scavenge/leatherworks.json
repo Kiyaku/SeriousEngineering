@@ -1,0 +1,238 @@
+{
+    "block_pools": [
+        {
+            "name": "ScrapingBlock",
+            "type": {
+                "type": "block",
+                "name": "quark:bark"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                 {
+                    "type": "consume_block",
+                    "chance": 100,
+                    "name": "contenttweaker:scraping_block_0"
+                },
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {
+                            "name": "growthcraft_milk:knife"
+                        }
+                    ],
+                    "level": 0
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": false
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.wood.place",
+                    "category": "block",
+                    "volume": 1,
+                    "disableJEI": true
+                }
+            ]
+        },
+        {
+            "name": "AttachHide",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:scraping_block_0"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                 {
+                    "type": "consume_block",
+                    "chance": 100,
+                    "name": "contenttweaker:scraping_block_1"
+                },
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {
+                            "name": "leatherworks:crafting_leather_washed"
+                        }
+                    ],
+                    "level": 0
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": false
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.cloth.place",
+                    "category": "block",
+                    "volume": 1,
+                    "disableJEI": true
+                }
+            ]
+        },
+        {
+            "name": "ScrapeStep1",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:scraping_block_1"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                 {
+                    "type": "consume_block",
+                    "chance": 100,
+                    "name": "contenttweaker:scraping_block_2"
+                },
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {
+                            "name": "growthcraft_milk:knife"
+                        }
+                    ],
+                    "level": 0
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": false
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.cloth.place",
+                    "category": "block",
+                    "volume": 1,
+                    "disableJEI": true
+                }
+            ]
+        },
+        {
+            "name": "ScrapeStep2",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:scraping_block_2"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                 {
+                    "type": "consume_block",
+                    "chance": 100,
+                    "name": "contenttweaker:scraping_block_3"
+                },
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {
+                            "name": "growthcraft_milk:knife"
+                        }
+                    ],
+                    "level": 0
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": false
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.cloth.place",
+                    "category": "block",
+                    "volume": 1,
+                    "disableJEI": true
+                }
+            ]
+        },
+        {
+            "name": "ScrapeStep3",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:scraping_block_3"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                 {
+                    "type": "consume_block",
+                    "chance": 100,
+                    "name": "contenttweaker:scraping_block_4"
+                },
+                {
+                    "type": "require_item_list",
+                    "items": [
+                        {
+                            "name": "growthcraft_milk:knife"
+                        }
+                    ],
+                    "level": 0
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": false
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.cloth.place",
+                    "category": "block",
+                    "volume": 1,
+                    "disableJEI": true
+                }
+            ]
+        },
+        {
+            "name": "Finish",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:scraping_block_4"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                 {
+                    "type": "consume_block",
+                    "chance": 100,
+                    "name": "contenttweaker:scraping_block_0"
+                },
+                {
+                    "type": "require_empty_hand"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": false
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.cloth.place",
+                    "category": "block",
+                    "volume": 1,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [
+                {
+                    "name": "contenttweaker:hide_scraped",
+                    "amount": 1
+                }
+            ]
+        }
+    ]
+}

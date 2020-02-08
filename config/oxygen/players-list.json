@@ -1,0 +1,6 @@
+{
+  "version": "0.10.2:beta:0",
+  "client": {
+    "enable_players_list_key": true
+  }
+}

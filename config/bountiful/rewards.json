@@ -1,0 +1,32 @@
+[
+  {
+    "content": "contenttweaker:coin_1",
+    "unitWorth": 10,
+    "weight": 1
+  },
+    {
+    "content": "contenttweaker:coin_5",
+    "unitWorth": 50,
+    "weight": 5
+  },
+    {
+    "content": "contenttweaker:coin_10",
+    "unitWorth": 100,
+    "weight": 10
+  },
+    {
+    "content": "contenttweaker:coin_50",
+    "unitWorth": 500,
+    "weight": 50
+  },
+    {
+    "content": "contenttweaker:coin_100",
+    "unitWorth": 1000,
+    "weight": 100
+  },
+    {
+    "content": "contenttweaker:coin_500",
+    "unitWorth": 5000,
+    "weight": 500
+  }
+]

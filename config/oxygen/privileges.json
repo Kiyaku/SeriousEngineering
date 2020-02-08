@@ -1,0 +1,15 @@
+{
+  "version": "0.10.2:beta:0",
+  "server": {
+    "enable_formatted_chat": false,
+    "enable_chat_formatting_role_management": false,
+    "enable_custom_formatted_chat": false,
+    "custom_formatted_chat_pattern": "@username: ",
+    "custom_formatted_chat_prefix_pattern": "[@prefix] @username: ",
+    "custom_formatted_default_chat_color": 7,
+    "show_prefix": true,
+    "enable_nickname_color": true,
+    "enable_prefix_color": true,
+    "enable_chat_color": true
+  }
+}

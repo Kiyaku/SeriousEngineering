@@ -1,0 +1,270 @@
+{
+	"ores": [
+		{
+			"blocks": [
+				"geolosys:ore_vanilla:0",
+				90,
+				"techguns:orecluster:0",
+				1
+			],
+			"samples": [
+				"geolosys:ore_sample_vanilla:0",
+				100
+			],
+			"yMin": 30,
+			"yMax": 50,
+			"chance": 4,
+			"size": 60,
+			"dimBlacklist": [
+				-1,
+				1,
+				7
+			],
+			"density": 0.5,
+			"biomes": [
+				"PLAINS",
+				"SWAMP"
+			],
+			"isWhitelist": true
+		},
+		{
+			"blocks": [
+				"geolosys:ore:0",
+				25,
+				"geolosys:ore:2",
+				25,
+				"geolosys:ore:5",
+				20,
+				"geolosys:ore:7",
+				20,
+				"techguns:orecluster:1",
+				1
+			],
+			"samples": [
+				"geolosys:ore_sample:0",
+				25,
+				"geolosys:ore_sample:2",
+				25,
+				"geolosys:ore_sample:5",
+				25,
+				"geolosys:ore_sample:7",
+				25
+			],
+			"yMin": 20,
+			"yMax": 40,
+			"chance": 3,
+			"size": 40,
+			"dimBlacklist": [
+				-1,
+				1,
+				7
+			],
+			"density": 0.5,
+			"biomes": [
+				"MOUNTAIN",
+				"HILLS",
+				"FOREST"
+			],
+			"isWhitelist": true
+		},
+		{
+			"blocks": [
+				"geolosys:ore:1",
+				30,
+				"geolosys:ore:6",
+				30,
+				"geolosys:ore:10",
+				30,
+				"techguns:orecluster:2",
+				1
+			],
+			"samples": [
+				"geolosys:ore_sample:1",
+				33,
+				"geolosys:ore_sample:6",
+				33,
+				"geolosys:ore_sample:10",
+				33
+			],
+			"yMin": 20,
+			"yMax": 40,
+			"chance": 2,
+			"size": 80,
+			"dimBlacklist": [
+				-1,
+				1,
+				7
+			],
+			"density": 0.5,
+			"biomes": [
+				"SPOOKY",
+				"LUSH",
+				"CONIFEROUS"
+			],
+			"isWhitelist": true
+		},
+		{
+			"blocks": [
+				"geolosys:ore_vanilla:2",
+				79,
+				"thaumcraft:ore_amber",
+				10,
+				"thaumcraft:ore_cinnabar",
+				10,
+				"techguns:orecluster:3",
+				1
+			],
+			"samples": [
+				"geolosys:ore_sample_vanilla:2",
+				100
+			],
+			"yMin": 10,
+			"yMax": 30,
+			"chance": 2,
+			"size": 80,
+			"dimBlacklist": [
+				-1,
+				1,
+				7
+			],
+			"density": 0.2,
+			"biomes": [
+				"SANDY",
+				"MESA",
+				"DRY"
+			],
+			"isWhitelist": true
+		},
+		{
+			"blocks": [
+				"geolosys:ore:9",
+				45,
+				"sgcraft:naquadahore",
+				44,
+				"techguns:orecluster:4",
+				1
+			],
+			"samples": [
+				"geolosys:ore_sample:9",
+				100
+			],
+			"yMin": 3,
+			"yMax": 20,
+			"chance": 0.2,
+			"size": 80,
+			"dimBlacklist": [
+				0,
+				-1,
+				1
+			],
+			"density": 0.3,
+			"biomes": [
+				"TWILIGHT",
+				"VOID"
+			],
+			"isWhitelist": true
+		},
+		{
+			"blocks": [
+				"geolosys:ore_vanilla:1",
+				40,
+				"geolosys:ore_vanilla:3",
+				30,
+				"geolosys:ore_vanilla:4",
+				20,
+				"techguns:orecluster:5",
+				1
+			],
+			"samples": [
+				"geolosys:ore_sample_vanilla:1",
+				33,
+				"geolosys:ore_sample_vanilla:3",
+				33,
+				"geolosys:ore_sample_vanilla:4",
+				33
+			],
+			"yMin": 3,
+			"yMax": 30,
+			"chance": 3,
+			"size": 80,
+			"dimBlacklist": [
+				-1,
+				1,
+				7
+			],
+			"density": 0.2,
+			"biomes": [
+				"HOT",
+				"SANDY",
+				"MAGICAL"
+			],
+			"isWhitelist": true
+		},
+		{
+			"blocks": [
+				"geolosys:ore_vanilla:5",
+				45,
+				"geolosys:ore_vanilla:6",
+				44,
+				"techguns:orecluster:6",
+				1
+			],
+			"samples": [
+				"geolosys:ore_sample_vanilla:5",
+				75,
+				"geolosys:ore_sample_vanilla:6",
+				25
+			],
+			"yMin": 3,
+			"yMax": 20,
+			"chance": 3,
+			"size": 80,
+			"dimBlacklist": [
+				-1,
+				1,
+				7
+			],
+			"density": 0.1,
+			"biomes": [
+				"COLD",
+				"JUNGLE",
+				"SNOWY"
+			],
+			"isWhitelist": true
+		}
+	],
+	"stones": [{
+			"block": "minecraft:stone:1",
+			"size": 40,
+			"chance": 10,
+			"yMin": 2,
+			"yMax": 70,
+			"dimBlacklist": [
+				-1,
+				1
+			]
+		},
+		{
+			"block": "minecraft:stone:3",
+			"size": 40,
+			"chance": 10,
+			"yMin": 2,
+			"yMax": 70,
+			"dimBlacklist": [
+				-1,
+				1
+			]
+		},
+		{
+			"block": "minecraft:stone:5",
+			"size": 40,
+			"chance": 10,
+			"yMin": 2,
+			"yMax": 70,
+			"dimBlacklist": [
+				-1,
+				1
+			]
+		}
+	]
+}

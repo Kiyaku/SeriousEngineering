@@ -1,0 +1,6 @@
+{
+  "version": "0.10.2:beta:0",
+  "server": {
+    "exchange_request_expire_time_seconds": 20
+  }
+}

@@ -1,0 +1,144 @@
+{
+    "images":
+    {
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture" : "custommainmenu:textures/gui/button.png",
+            "imageWidth" : 1000,
+            "imageHeight" : 200,
+            "posX" : -50,
+            "posY" : -40,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 6705017,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+            
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture" : "custommainmenu:textures/gui/button.png",
+            "imageWidth" : 1000,
+            "imageHeight" : 200,
+            "posX" : -50,
+            "posY" : -18,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 6705017,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "options":
+        {
+            "text" : "menu.options",
+            "texture" : "custommainmenu:textures/gui/button.png",
+            "imageWidth" : 1000,
+            "imageHeight" : 200,
+            "posX" : -50,
+            "posY" : 4,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 6705017,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture" : "custommainmenu:textures/gui/button.png",
+            "imageWidth" : 1000,
+            "imageHeight" : 200,
+            "posX" : -50,
+            "posY" : 26,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 6705017,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "texture" : "custommainmenu:textures/gui/button.png",
+            "imageWidth" : 1000,
+            "imageHeight" : 200,
+            "posX" : -50,
+            "posY" : 48,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 6705017,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+        
+    },
+    
+    "texts":
+    {
+    },
+
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -45,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other": {
+        "background": {
+            "image": "custommainmenu:textures/gui/background.png"
+        }
+    }
+}

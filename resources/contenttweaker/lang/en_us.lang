@@ -1,0 +1,25 @@
+item.contenttweaker.geode_aer.name=Aer Geode
+item.contenttweaker.geode_ignis.name=Ignis Geode
+item.contenttweaker.geode_aqua.name=Aqua Geode
+item.contenttweaker.geode_terra.name=Terra Geode
+item.contenttweaker.geode_ordo.name=Ordo Geode
+item.contenttweaker.geode_perditio.name=Perditio Geode
+
+item.contenttweaker.mold_axe.name=Axe Mold
+item.contenttweaker.mold_cross_guard.name=Cross Guard Mold
+item.contenttweaker.mold_dagger.name=Dagger Mold
+item.contenttweaker.mold_hammer.name=Hammer Mold
+item.contenttweaker.mold_handpick.name=Handpick Mold
+item.contenttweaker.mold_hoe.name=Hoe Mold
+item.contenttweaker.mold_mace.name=Mace Mold
+item.contenttweaker.mold_pickaxe.name=Pickaxe Mold
+item.contenttweaker.mold_shovel.name=Shovel Mold
+item.contenttweaker.mold_sword_blade.name=Sword Blade Mold
+
+
+item.contenttweaker.coin_1.name=Coin (1)
+item.contenttweaker.coin_5.name=Coin (5)
+item.contenttweaker.coin_10.name=Coin (10)
+item.contenttweaker.coin_50.name=Coin (50)
+item.contenttweaker.coin_100.name=Coin (100)
+item.contenttweaker.coin_500.name=Coin (500)

@@ -1,0 +1,35 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "thaumcraft:log_greatwood"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          },
+          "item": {
+            "items": [
+              "thaumcraft:amber"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

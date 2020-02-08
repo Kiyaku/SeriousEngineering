@@ -1,0 +1,7 @@
+{
+  "version": "0.10.2:beta:0",
+  "server": {
+    "reward_time_offset_hours": 0,
+    "maximum_rewards_amount_per_month": -1
+  }
+}
