@@ -1,26 +1,17 @@
 {
     "block_pools": [
         {
-            "name": "LightTorch",
+            "name": "BinnieBushes",
             "type": {
                 "type": "block",
-                "name": "realistictorches:torch_unlit"
+                "name": "extratrees:leaves.default.fruit.11"
             },
             "clicktype": "rightclick",
             "properties": [
                  {
                     "type": "consume_block",
                     "chance": 100,
-                    "name": "realistictorches:torch_lit"
-                },
-                {
-                    "type": "require_item_list",
-                    "items": [
-                        {
-                            "name": "realistictorches:torch_lit"
-                        }
-                    ],
-                    "level": 0
+                    "name": "minecraft:air"
                 },
                 {
                     "type": "swing_hand",
@@ -28,7 +19,7 @@
                 },
                 {
                     "type": "play_sound",
-                    "name": "minecraft:block.wood.place",
+                    "name": "minecraft:block.grass.break",
                     "category": "block",
                     "volume": 1,
                     "disableJEI": true
