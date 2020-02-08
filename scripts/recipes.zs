@@ -644,9 +644,9 @@ JEI.removeAndHide(<mysticalworld:stuffed_aubergine>);
 JEI.removeAndHide(<mysticalworld:cooked_aubergine>);
 furnace.remove(<mysticalworld:cooked_aubergine>);
 
-recipes.addShapeless(<mysticalworld:copper_block>, [<immersiveengineering:storage:0>]);
+recipes.addShapeless(<mysticalworld:copper_block> * 2, [<immersiveengineering:storage:0>, <immersiveengineering:storage:0>]);
 recipes.addShapeless(<immersiveengineering:storage:0>, [<mysticalworld:copper_block>]);
-recipes.addShapeless(<mysticalworld:silver_block>, [<immersiveengineering:storage:3>]);
+recipes.addShapeless(<mysticalworld:silver_block> * 2, [<immersiveengineering:storage:3>, <immersiveengineering:storage:3>]);
 recipes.addShapeless(<immersiveengineering:storage:3>, [<mysticalworld:silver_block>]);
 
 
@@ -1006,36 +1006,16 @@ recipes.addShaped("chineseworkshop_stone_window", <chineseworkshop:stone_window>
 	[<ore:stoneDiorite>, <ore:stoneDiorite>, <ore:stoneDiorite>]
 ]);
 
+recipes.remove(<chineseworkshop:thin_wall_w>);
+recipes.addShaped("chineseworkshop_thinwall", <chineseworkshop:thin_wall_w> * 32, [
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
 
 
 // ------------ CHISEL --------------------------------
-val chiselGroups = {
-	"stainedWoodWhite" : [ <quark:stained_planks:0>, <rustic:painted_wood_white>, <littletiles:ltcoloredblock:13> ],
-	"stainedWoodOrange" : [ <quark:stained_planks:1>, <rustic:painted_wood_orange> ],
-	"stainedWoodMagenta" : [ <quark:stained_planks:2>, <rustic:painted_wood_magenta> ],
-	"stainedWoodLightBlue" : [ <quark:stained_planks:3>, <rustic:painted_wood_light_blue> ],
-	"stainedWoodYellow" : [ <quark:stained_planks:4>, <rustic:painted_wood_yellow> ],
-	"stainedWoodLime" : [ <quark:stained_planks:5>, <rustic:painted_wood_lime> ],
-	"stainedWoodPink" : [ <quark:stained_planks:6>, <rustic:painted_wood_pink> ],
-	"stainedWoodGray" : [ <quark:stained_planks:7>, <rustic:painted_wood_gray> ],
-	"stainedWoodLightGray" : [ <quark:stained_planks:8>, <rustic:painted_wood_silver> ],
-	"stainedWoodCyan" : [ <quark:stained_planks:9>, <rustic:painted_wood_cyan> ],
-	"stainedWoodPurple" : [ <quark:stained_planks:10>, <rustic:painted_wood_purple> ],
-	"stainedWoodBlue" : [ <quark:stained_planks:11>, <rustic:painted_wood_blue> ],
-	"stainedWoodBrown" : [ <quark:stained_planks:12>, <rustic:painted_wood_brown> ],
-	"stainedWoodGreen" : [ <quark:stained_planks:13>, <rustic:painted_wood_green> ],
-	"stainedWoodRed" : [ <quark:stained_planks:14>, <rustic:painted_wood_red> ],
-	"stainedWoodBlack" : [ <quark:stained_planks:15>, <rustic:painted_wood_black> ]
-} as IItemStack[][string];
 
-
-for index, key in chiselGroups {
-	Carving.addGroup(index);
-
-	for item in key {
-		Carving.addVariation(index, item);
-	}
-}
 
 
 
@@ -1053,8 +1033,18 @@ ArcaneWorkbench.registerShapedRecipe("PotionSprayer", "POTIONSPRAYER", 75, [<asp
 
 
 
-// ------------ AQUACULTUER ---------------------------
+// ------------ AQUACULTURE ---------------------------
 <ore:ingotNeptunium>.add(<aquaculture:loot:1>);
+
+
+
+// ------------ RUSTIC --------------------------------
+recipes.remove(<rustic:crop_stake>);
+recipes.addShaped("crop_stake", <rustic:crop_stake>, [
+	[null, null, <ore:plankWood>], 
+	[null, <ore:plankWood>, null], 
+	[<ore:plankWood>, null, null]
+]);
 
 
 
@@ -1282,24 +1272,41 @@ recipes.addShapeless(coin500, [coin100, coin100, coin50, coin50, coin50, coin50,
 recipes.addShapeless(coin500, [coin100, coin50, coin50, coin50, coin50, coin50, coin50, coin50, coin50]);
 
 recipes.remove(<minecraft:mob_spawner>);
-
-recipes.addShapeless("rc_andesite_to_cw_andesite", <chineseworkshop:andesite_pavement>, [<railcraft:brick_andesite:3>]);
-recipes.addShapeless("rc_andesite_to_cw_andesite", <railcraft:brick_andesite:3>, [<chineseworkshop:andesite_pavement>]);
-
-recipes.addShapeless("mw_mud_to_ew_mud", <earthworks:block_mud>, [<mysticalworld:wet_mud_block>]);
-recipes.addShapeless("ew_mud_to_mw_mud", <mysticalworld:wet_mud_block>, [<earthworks:block_mud>]);
-
-recipes.addShapeless("tcflesh_to_charmflesh", <charm:rotten_flesh_block>, [<thaumcraft:flesh_block>]);
-recipes.addShapeless("charmflesh_to_tcflesh", <thaumcraft:flesh_block>, [<charm:rotten_flesh_block>]);
-
-recipes.addShapeless("quark_andesitefence_to_cw_fence", <chineseworkshop:andesite_fence>, [<quark:stone_andesite_wall>]);
-recipes.addShapeless("cw_andesitefence_to_quark_fence", <quark:stone_andesite_wall>, [<chineseworkshop:andesite_fence>]);
-
-recipes.addShapeless("quark_dioritefence_to_cw_fence", <chineseworkshop:diorite_fence>, [<quark:stone_diorite_wall>]);
-recipes.addShapeless("cw_dioritefence_to_quark_fence", <quark:stone_diorite_wall>, [<chineseworkshop:diorite_fence>]);
+recipes.remove(<cfm:stone_path>);
 
 
+val fromToConversions = {
+	"stainedWoodWhite" : [ <quark:stained_planks:0>, <rustic:painted_wood_white> ],
+	"stainedWoodWhite2" : [ <rustic:painted_wood_white>, <littletiles:ltcoloredblock:13> ],
+	"stainedWoodOrange" : [ <quark:stained_planks:1>, <rustic:painted_wood_orange> ],
+	"stainedWoodMagenta" : [ <quark:stained_planks:2>, <rustic:painted_wood_magenta> ],
+	"stainedWoodLightBlue" : [ <quark:stained_planks:3>, <rustic:painted_wood_light_blue> ],
+	"stainedWoodYellow" : [ <quark:stained_planks:4>, <rustic:painted_wood_yellow> ],
+	"stainedWoodLime" : [ <quark:stained_planks:5>, <rustic:painted_wood_lime> ],
+	"stainedWoodPink" : [ <quark:stained_planks:6>, <rustic:painted_wood_pink> ],
+	"stainedWoodGray" : [ <quark:stained_planks:7>, <rustic:painted_wood_gray> ],
+	"stainedWoodLightGray" : [ <quark:stained_planks:8>, <rustic:painted_wood_silver> ],
+	"stainedWoodCyan" : [ <quark:stained_planks:9>, <rustic:painted_wood_cyan> ],
+	"stainedWoodPurple" : [ <quark:stained_planks:10>, <rustic:painted_wood_purple> ],
+	"stainedWoodBlue" : [ <quark:stained_planks:11>, <rustic:painted_wood_blue> ],
+	"stainedWoodBrown" : [ <quark:stained_planks:12>, <rustic:painted_wood_brown> ],
+	"stainedWoodGreen" : [ <quark:stained_planks:13>, <rustic:painted_wood_green> ],
+	"stainedWoodRed" : [ <quark:stained_planks:14>, <rustic:painted_wood_red> ],
+	"stainedWoodBlack" : [ <quark:stained_planks:15>, <rustic:painted_wood_black> ],
+	"andesiteRoad" : [ <chineseworkshop:andesite_pavement>, <railcraft:brick_andesite:3> ],
+	"mudBlock" : [ <earthworks:block_mud>, <mysticalworld:wet_mud_block> ],
+	"fleshBlock" : [ <charm:rotten_flesh_block>, <thaumcraft:flesh_block> ],
+	"andesiteFence" : [ <chineseworkshop:andesite_fence>, <quark:stone_andesite_wall> ],
+	"dioriteFence" : [ <chineseworkshop:diorite_fence>, <quark:stone_diorite_wall> ],
+	"thatchBlock" : [ <earthworks:block_thatch>, <quark:thatch> ],
+	"stonePath" : [ <cfm:stone_path>, <inspirations:path:2> ],
+} as IItemStack[][string];
 
+
+for index, key in fromToConversions {
+	recipes.addShapeless(index ~ "from", key[0], [key[1]]);
+	recipes.addShapeless(index ~ "to", key[1], [key[0]]);
+}
 
 
 // ------------ LOOT TABLES ---------------------------
