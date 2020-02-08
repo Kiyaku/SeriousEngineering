@@ -641,6 +641,9 @@ recipes.addShapeless(<immersiveengineering:storage:0>, [<mysticalworld:copper_bl
 recipes.addShapeless(<mysticalworld:silver_block>, [<immersiveengineering:storage:3>]);
 recipes.addShapeless(<immersiveengineering:storage:3>, [<mysticalworld:silver_block>]);
 
+recipes.addShapeless("mw_mud_to_ew_mud", <earthworks:block_mud>, [<mysticalworld:wet_mud_block>]);
+recipes.addShapeless("ew_mud_to_mw_mud", <mysticalworld:wet_mud_block>, [<earthworks:block_mud>]);
+
 
 
 // ------------ TECHGUNS ------------------------------
