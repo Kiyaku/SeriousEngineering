@@ -27,6 +27,7 @@ import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import mods.techguns.GunStats;
 import mods.techguns.ArmorStats;
+import mods.chisel.Carving;
 
 
 
@@ -981,24 +982,45 @@ JEI.removeAndHide(<betterboilers:turbine_controller>);
 
 
 
-// ------------ QUARK ---------------------------------
-recipes.remove(<malisisdoors:trapdoor_acacia>);
-recipes.remove(<malisisdoors:trapdoor_birch>);
-recipes.remove(<malisisdoors:trapdoor_dark_oak>);
-recipes.remove(<malisisdoors:trapdoor_jungle>);
-recipes.remove(<malisisdoors:trapdoor_spruce>);
 
-recipes.addShapeless(<malisisdoors:trapdoor_acacia>, [<quark:acacia_trapdoor>]);
-recipes.addShapeless(<malisisdoors:trapdoor_birch>, [<quark:birch_trapdoor>]);
-recipes.addShapeless(<malisisdoors:trapdoor_dark_oak>, [<quark:dark_oak_trapdoor>]);
-recipes.addShapeless(<malisisdoors:trapdoor_jungle>, [<quark:jungle_trapdoor>]);
-recipes.addShapeless(<malisisdoors:trapdoor_spruce>, [<quark:spruce_trapdoor>]);
+// ------------ CHINESE WORKSHOP ----------------------
+recipes.remove(<chineseworkshop:fu>);
+recipes.addShaped("chineseworkshop_fu", <chineseworkshop:fu>, [
+	[null, <ore:stickWood>, null],
+	[<ore:stickWood>, <minecraft:paper>, <ore:stickWood>],
+	[null, <ore:stickWood>, null]
+]);
 
-recipes.addShapeless(<quark:acacia_trapdoor>, [<malisisdoors:trapdoor_acacia>]);
-recipes.addShapeless(<quark:birch_trapdoor>, [<malisisdoors:trapdoor_birch>]);
-recipes.addShapeless(<quark:dark_oak_trapdoor>, [<malisisdoors:trapdoor_dark_oak>]);
-recipes.addShapeless(<quark:jungle_trapdoor>, [<malisisdoors:trapdoor_jungle>]);
-recipes.addShapeless(<quark:spruce_trapdoor>, [<malisisdoors:trapdoor_spruce>]);
+
+
+// ------------ CHISEL --------------------------------
+val chiselGroups = {
+	"stainedWoodWhite" : [ <quark:stained_planks:0>, <rustic:painted_wood_white> ],
+	"stainedWoodOrange" : [ <quark:stained_planks:1>, <rustic:painted_wood_orange> ],
+	"stainedWoodMagenta" : [ <quark:stained_planks:2>, <rustic:painted_wood_magenta> ],
+	"stainedWoodLightBlue" : [ <quark:stained_planks:3>, <rustic:painted_wood_light_blue> ],
+	"stainedWoodYellow" : [ <quark:stained_planks:4>, <rustic:painted_wood_yellow> ],
+	"stainedWoodLime" : [ <quark:stained_planks:5>, <rustic:painted_wood_lime> ],
+	"stainedWoodPink" : [ <quark:stained_planks:6>, <rustic:painted_wood_pink> ],
+	"stainedWoodGray" : [ <quark:stained_planks:7>, <rustic:painted_wood_gray> ],
+	"stainedWoodLightGray" : [ <quark:stained_planks:8>, <rustic:painted_wood_silver> ],
+	"stainedWoodCyan" : [ <quark:stained_planks:9>, <rustic:painted_wood_cyan> ],
+	"stainedWoodPurple" : [ <quark:stained_planks:10>, <rustic:painted_wood_purple> ],
+	"stainedWoodBlue" : [ <quark:stained_planks:11>, <rustic:painted_wood_blue> ],
+	"stainedWoodBrown" : [ <quark:stained_planks:12>, <rustic:painted_wood_brown> ],
+	"stainedWoodGreen" : [ <quark:stained_planks:13>, <rustic:painted_wood_green> ],
+	"stainedWoodRed" : [ <quark:stained_planks:14>, <rustic:painted_wood_red> ],
+	"stainedWoodBlack" : [ <quark:stained_planks:15>, <rustic:painted_wood_black> ]
+} as IItemStack[][string];
+
+
+for index, key in chiselGroups {
+	Carving.addGroup(index);
+
+	for item in key {
+		Carving.addVariation(index, item);
+	}
+}
 
 
 
@@ -1013,6 +1035,9 @@ ArcaneWorkbench.registerShapedRecipe("PotionSprayer", "POTIONSPRAYER", 75, [<asp
 	 [<immersiveengineering:metal:39>, <rustic:condenser_advanced>, <immersiveengineering:metal:39>], 
 	 [<immersiveengineering:metal:39>, <thaumcraft:metal_alchemical>, <immersiveengineering:metal:39>]]
 );
+
+recipes.addShapeless("tcflesh_to_charmflesh", <charm:rotten_flesh_block>, [<thaumcraft:flesh_block>]);
+recipes.addShapeless("charmflesh_to_tcflesh", <thaumcraft:flesh_block>, [<charm:rotten_flesh_block>]);
 
 
 
