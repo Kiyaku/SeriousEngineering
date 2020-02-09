@@ -1224,19 +1224,70 @@ OreStages.addReplacement("fixes", <minecraft:lapis_ore>, <geolosys:ore_vanilla:3
 OreStages.addReplacement("fixes", <minecraft:diamond_ore>, <geolosys:ore_vanilla:5>);
 OreStages.addReplacement("fixes", <minecraft:emerald_ore>, <geolosys:ore_vanilla:6>);
 
-OreStages.addReplacement("removed",<minecraft:brewing_stand>, <minecraft:cobblestone>);
+
+
+// ------------ VEHUCLE -------------------------------
+JEI.removeAndHide(<vehicle:workstation>);
+JEI.removeAndHide(<hooked:hook:4>);
+JEI.removeAndHide(<vehicle:fluid_mixer>);
+JEI.removeAndHide(<vehicle:fluid_extractor>);
+JEI.removeAndHide(<vehicle:fluid_pipe>);
+JEI.removeAndHide(<vehicle:fluid_pump>);
+JEI.removeAndHide(<vehicle:small_engine:*>);
+JEI.removeAndHide(<vehicle:small_engine:*>);
+JEI.removeAndHide(<vehicle:large_engine:*>);
+JEI.removeAndHide(<vehicle:electric_engine:*>);
+JEI.removeAndHide(<vehicle:wheel:1>);
+JEI.removeAndHide(<vehicle:wheel:2>);
+JEI.removeAndHide(<vehicle:wheel:3>);
+JEI.removeAndHide(<vehicle:wheel:6>);
+JEI.removeAndHide(<vehicle:vehicle_crate>.withTag({BlockEntityTag: {engineTier: 0, wheelType: 0, vehicle: "vehicle:bath"}}));
+JEI.removeAndHide(<vehicle:vehicle_crate>.withTag({BlockEntityTag: {engineTier: 0, wheelType: 0, vehicle: "vehicle:couch"}}));
+JEI.removeAndHide(<vehicle:vehicle_crate>.withTag({BlockEntityTag: {engineTier: 0, wheelType: 0, vehicle: "vehicle:shopping_cart"}}));
+JEI.removeAndHide(<vehicle:vehicle_crate>.withTag({BlockEntityTag: {engineTier: 0, wheelType: 0, vehicle: "vehicle:sofacopter"}}));
+JEI.removeAndHide(<vehicle:vehicle_crate>.withTag({BlockEntityTag: {engineTier: 0, wheelType: 0, vehicle: "vehicle:sports_plane"}}));
+JEI.removeAndHide(<vehicle:atv_body>);
+JEI.removeAndHide(<vehicle:handle_bar>);
+JEI.removeAndHide(<vehicle:dune_buggy_body>);
+JEI.removeAndHide(<vehicle:dune_buggy_handle_bar>);
+JEI.removeAndHide(<vehicle:go_kart_body>);
+JEI.removeAndHide(<vehicle:go_kart_steering_wheel>);
+JEI.removeAndHide(<vehicle:shopping_cart_body>);
+JEI.removeAndHide(<vehicle:mini_bike_body>);
+JEI.removeAndHide(<vehicle:mini_bike_handle_bar>);
+JEI.removeAndHide(<vehicle:bumper_car_body>);
+JEI.removeAndHide(<vehicle:jet_ski_body>);
+JEI.removeAndHide(<vehicle:speed_boat_body>);
+JEI.removeAndHide(<vehicle:aluminum_boat_body>);
+JEI.removeAndHide(<vehicle:smart_car_body>);
+JEI.removeAndHide(<vehicle:lawn_mower_body>);
+JEI.removeAndHide(<vehicle:moped_body>);
+JEI.removeAndHide(<vehicle:moped_mud_guard>);
+JEI.removeAndHide(<vehicle:moped_handle_bar>);
+JEI.removeAndHide(<vehicle:sports_plane_body>);
+JEI.removeAndHide(<vehicle:sports_plane_wing>);
+JEI.removeAndHide(<vehicle:sports_plane_wheel_cover>);
+JEI.removeAndHide(<vehicle:sports_plane_leg>);
+JEI.removeAndHide(<vehicle:sports_plane_propeller>);
+JEI.removeAndHide(<vehicle:golf_cart_body>);
+JEI.removeAndHide(<vehicle:off_roader_body>);
+JEI.removeAndHide(<vehicle:tractor_body>);
+JEI.removeAndHide(<vehicle:trailer_body>);
+JEI.removeAndHide(<vehicle:tow_bar>);
+JEI.removeAndHide(<vehicle:fuel_port_closed>);
+JEI.removeAndHide(<vehicle:fuel_port_lid>);
+JEI.removeAndHide(<vehicle:fuel_port_body>);
+JEI.removeAndHide(<vehicle:fuel_port_2_closed>);
+JEI.removeAndHide(<vehicle:fuel_port_2_pipe>);
+JEI.removeAndHide(<vehicle:key_hole>);
+JEI.removeAndHide(<vehicle:couch_helicopter_arm>);
+JEI.removeAndHide(<vehicle:couch_helicopter_skid>);
 
 
 
 // ------------ OTHERS --------------------------------
 recipes.remove(<sereneseasons:greenhouse_glass>);
 JEI.removeAndHide(<bettermagnets:anti_magnet_block>);
-
-JEI.removeAndHide(<hooked:hook:4>);
-JEI.removeAndHide(<vehicle:fluid_mixer>);
-JEI.removeAndHide(<vehicle:fluid_extractor>);
-JEI.removeAndHide(<vehicle:fluid_pipe>);
-JEI.removeAndHide(<vehicle:fluid_pump>);
 
 val coin1   = <contenttweaker:coin_1>;
 val coin5   = <contenttweaker:coin_5>;

@@ -13,7 +13,7 @@
         {
           "selector": {
             "weight": {
-              "value": 15
+              "value": 2
             }
           },
           "item": {
@@ -25,7 +25,47 @@
         {
           "selector": {
             "weight": {
-              "value": 85
+              "value": 4
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "thaumcraft:amber"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 6
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "thaumcraft:amber"
+            ]
+          }
+        },
+
+        {
+          "selector": {
+            "weight": {
+              "value": 8
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "thaumcraft:amber"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 90
             }
           }
         }

@@ -6,9 +6,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -19,9 +19,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -32,9 +32,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -45,9 +45,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -58,9 +58,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -71,9 +71,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -84,9 +84,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"epic_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -97,9 +97,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -110,9 +110,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -123,9 +123,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -136,9 +136,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -149,9 +149,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -162,9 +162,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -175,9 +175,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"epic_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -188,9 +188,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -201,9 +201,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -214,9 +214,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -227,9 +227,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -240,9 +240,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -253,9 +253,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -266,9 +266,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"epic_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -279,9 +279,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -292,9 +292,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -305,9 +305,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -318,9 +318,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -331,9 +331,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -344,9 +344,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"rare_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -357,9 +357,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"epic_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -370,9 +370,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   },
@@ -383,9 +383,9 @@
     "amount": 1,
     "special": false,
     "itemstack": {
-      "registry_name": "minecraft:emerald",
+      "registry_name": "ftbquests:lootcrate",
       "damage": 0,
-      "itemstack_nbt": "",
+      "itemstack_nbt": "{type: \"common_money_chest\"}",
       "capabilities_nbt": ""
     }
   }
