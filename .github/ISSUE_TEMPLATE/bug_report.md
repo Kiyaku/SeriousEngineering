@@ -8,4 +8,4 @@ assignees: ''
 ---
 
 **Describe the bug**
-Please mention the pack version when submitting a bug report, and any crash logs if applicable
+Please mention the pack version, and include any crash logs if applicable
